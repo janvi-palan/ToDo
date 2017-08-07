@@ -1,0 +1,22 @@
+	<!DOCTYPE html>
+	<link href="ToDo.css" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- uncomment the following to allow drag-and-drop-->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> -->
+	
+	<body>
+    <div class="container">
+		<h2 id = "heading"> Custom To-Do List</h2>
+    <p><em>Click the buttons to add, delete or mark a task as completed. Double click to edit an item. </em></p>
+       
+		<form name="toDoList">
+			<input type="text" id = "new-text" name="ListItem"/>
+		</form>
+    
+		<div id="button">Add</div>
+		<br/>
+
+		<ul id = "myToDoList"></ul>
+    </div>
+    <script type="text/javascript" src="js/ToDo.js"></script>
+	</body>

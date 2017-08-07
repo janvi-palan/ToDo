@@ -1,0 +1,101 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+	font: normal normal 13px/20px "Open Sans", sans-serif;
+	background: #4AA3BA;
+}
+
+#heading{
+	font:normal normal 30px/20px "Open Sans", sans-serif ;
+}
+
+.container{
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: white;
+	border-radius: 5px;
+}
+
+form{
+	display: inline-block;
+}
+
+input{
+	padding: 4px 15px 4px 5px;
+}
+
+#button{
+	display: inline-block;
+	background-color:#30729C;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+	padding: 5px 15px;
+}
+
+#button:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+
+#done{
+	display: inline-block;
+	background-color:#4AA3BA;
+	color:#ffffff;
+	/*width:30px;
+	height: 10px;*/
+	border-radius: 5px;
+	font-size: 10px;
+	text-align:center;
+	line-height: 10px;
+	margin-top:2px;
+	padding: 5px 15px;
+}
+
+#done:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+
+
+#delete{
+	display: inline-block;
+	background-color:#8b8585;
+	color:#ffffff;
+	border-radius: 5px;
+	line-height: 10px;
+	font-size: 10px;
+	text-align:center;
+	
+	padding: 5px 15px;
+}
+
+#delete:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+
+ul{	
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+ul li {
+	padding-left: 10px;
+	padding-right:20px; 
+	color:#000;
+	margin-top: 2px;
+}
+
+
+.strike{
+	text-decoration: line-through;
+}
+
+li:hover{
+  	cursor: pointer;
+ }
